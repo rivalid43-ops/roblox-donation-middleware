@@ -1,0 +1,29 @@
+{
+  "name": "roblox-donation-middleware",
+  "version": "1.0.0",
+  "description": "Middleware server untuk menghubungkan Saweria dengan Roblox Open Cloud API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "saweria",
+    "roblox",
+    "webhook",
+    "middleware"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "crypto": "builtin"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "18.x"
+  }
+}
